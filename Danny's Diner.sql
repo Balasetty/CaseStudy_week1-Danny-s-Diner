@@ -130,3 +130,10 @@ select dannys_diner.sales.customer_id,sum(dannys_diner.menu.price*10*2) as point
 join dannys_diner.menu on dannys_diner.menu.product_id=dannys_diner.sales.product_id
 where dannys_diner.sales.order_date between dannys_diner.members.join_date and '2021-01-31'
 group by dannys_diner.sales.customer_id
+
+
+
+Key Insights:
+Most popular menu item: Ramen
+Highest spending customer: Customer A
+Strategic insights for improve in business running.
